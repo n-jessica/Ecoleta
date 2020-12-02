@@ -11,4 +11,4 @@ const connection = knex({
 
 export default connection;
 
-//Parei aula com 1h06min
+//Parei aula com 1h12min ainda não mostra a tabela do banco preenchida

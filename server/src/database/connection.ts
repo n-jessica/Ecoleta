@@ -2,7 +2,7 @@ import knex from 'knex';
 import path from 'path';
 
 const connection = knex({
-    client:'sqlite3',
+    client: 'sqlite3',
     connection: {
         filename: path.resolve(__dirname, 'database.sqlite'),
     },
@@ -10,5 +10,3 @@ const connection = knex({
 });
 
 export default connection;
-
-//Parei aula com 1h12min ainda não mostra a tabela do banco preenchida

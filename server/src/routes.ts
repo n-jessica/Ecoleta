@@ -1,11 +1,11 @@
-//Todas as rotas do projeto estão inseridas nesse arquivo
 import express from 'express';
 
 const routes = express.Router();
 
-routes.get('/', (request, response) => {
-    
-    return response.json({message: 'Hello, world'});
+routes.get('/', (request, response) => {    
+    return response.json({ message: 'Hello World' });
 });
 
 export default routes;
+
+//37 min
